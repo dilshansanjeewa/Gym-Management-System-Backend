@@ -1,5 +1,10 @@
 spring:
   datasource:
-    url: // Database url
-    username: // User name
-    password: //password
+    url: //Database URL
+    username: // username
+    password: // password
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
